@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import EarthQuake
 
-# Register your models here.
+
+admin.site.register(EarthQuake)
