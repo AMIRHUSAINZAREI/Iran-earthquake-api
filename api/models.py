@@ -7,7 +7,8 @@ class EarthQuake(models.Model):
     latitude = models.FloatField()
     longitude = models.FloatField()
     depth = models.IntegerField()
-    region = models.CharField(max_length=200)
+    region_city = models.CharField(max_length=200)
+    region_state = models.CharField(max_length=200)
 
     def __str__(self):
-        return self.region
+        return self.region_state
