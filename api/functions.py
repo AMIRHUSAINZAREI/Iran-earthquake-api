@@ -56,7 +56,7 @@ def scraper():
                     earth_quakes[earth_quake]['longitude']=float(re.findall(r'%s'%regex_patterns[3],
                                                                                     str(tds[3]))[0])
                 elif feilde == 'depth':
-                    earth_quakes[earth_quake]['depth']=float(re.findall(r'%s'%regex_patterns[4],
+                    earth_quakes[earth_quake]['depth']=int(re.findall(r'%s'%regex_patterns[4],
                                                                                 str(tds[4]))[0])
                 elif feilde == 'region':
                     raw_string = re.findall(r'%s'%regex_patterns[5],
