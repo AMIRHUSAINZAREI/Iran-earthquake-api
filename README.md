@@ -18,11 +18,13 @@
 
         cd Iran_earthquake_api
   
-  2 - start pipenv and install dependencies 
+  2 - start pipenv and setUp dependencies 
 
         pipenv shell
 
         pipenv install -r requirments.txt
+
+        python manage.py migrate
 
   3 - run
 
