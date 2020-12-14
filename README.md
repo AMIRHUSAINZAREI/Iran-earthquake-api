@@ -13,9 +13,11 @@
   1 - clone repo :)
         `git clone https://github.com/AMIRHUSAINZAREI/Iran-earthquake-api`
         `cd Iran_earthquake-api`
+  
   2 - start pipenv and install dependency
         `pipenv shell`
         `pipenv install -r requirments.txt`
+
   3 - run
         `python manage.py runserver`
 
