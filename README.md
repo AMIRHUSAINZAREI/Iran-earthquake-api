@@ -7,6 +7,8 @@
 |Last n EarthQuakes                       | `/api/last/n/`                                                                                                  |
 |EarthQuake with Magnitude greater than m | `/api/magnitude_gte/m/`                                                                                         
 
+![](images/last5.png)
+
 ### Insatlling
 >Requires the Python3.5+ interpreter, and pipenv.
 
