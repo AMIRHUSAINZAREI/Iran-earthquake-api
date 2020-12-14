@@ -18,7 +18,7 @@
 
         cd Iran_earthquake_api
   
-  2 - start pipenv and install dependency
+  2 - start pipenv and install dependencies 
 
         pipenv shell
 
@@ -29,4 +29,4 @@
         python manage.py runserver
 
 
-I'm a tourist in computer vast world and Django is my friend and vehicle, this project seems like one of the first cites that i visited and enjoyed and learn a lot.
+I'm a tourist in computer vast world and **Django** is my friend and vehicle, this project seems like one of the first cites that i visited and enjoyed and learn a lot.
